@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Longlivity by Nona — A little more life, every day</title>
+  <meta name="description" content="An editorial space for longevity, nourishing food, nutrition, and everyday wellness. Longlivity by Nona.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A slower pace. A fuller plate. A longer story.</div>
+  <header class="header wrap">
+    <a class="wordmark" href="#" aria-label="Longlivity by Nona home">longlivity<span>BY NONA</span></a>
+    <nav aria-label="Main navigation"><a href="#journal">The journal</a><a href="#philosophy">Our philosophy</a><a href="https://www.instagram.com/longlivity.bynona/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav>
+    <a class="header-button" href="#journal">Find your inspiration <span>↗</span></a>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow">THE ART OF LIVING WELL</p><h1>A little more life.<br>A little more <em>you.</em></h1><p class="intro">Good food. Thoughtful rituals. Room to breathe.<br>Explore a gentler approach to living well, for longer.</p><a class="button" href="#journal">Explore the journal <span>↗</span></a><div class="hero-note"><span class="little-sun">✳</span><p>Rooted in curiosity.<br>Made for everyday life.</p></div></div>
+      <div class="hero-image"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1400&q=85" alt="A colorful bowl of fresh vegetables and nourishing ingredients" fetchpriority="high"><span class="photo-label">NOURISH YOUR EVERYDAY</span><div class="image-stamp">eat well<br><i>live fully</i></div></div>
+    </section>
+    <div class="values" aria-label="Our themes"><span>Food that feels good</span><b>✳</b><span>Small, meaningful rituals</span><b>✳</b><span>Curiosity over perfection</span><b>✳</b><span>Wellness, at your own pace</span></div>
+    <section class="journal wrap" id="journal">
+      <div class="section-heading"><div><p class="eyebrow">A FRESH PERSPECTIVE</p><h2>The everyday journal<span>.</span></h2></div><p>Ideas to nourish your plate,<br>your mind, and the life in between.</p></div>
+      <div class="journal-tools"><div class="filters" role="group" aria-label="Filter articles"><button class="active" data-category="All" aria-pressed="true">All stories</button><button data-category="Food" aria-pressed="false">Food & recipes</button><button data-category="Longevity" aria-pressed="false">Longevity</button><button data-category="Nutrition" aria-pressed="false">Nutrition</button><button data-category="Wellness" aria-pressed="false">Wellness</button></div><label class="search"><span class="sr-only">Search stories</span><input id="search" type="search" placeholder="Find a little inspiration…"><span aria-hidden="true">⌕</span></label></div>
+      <p class="draft-note">THE FIRST CHAPTER · Preview stories, awaiting Nona’s editorial review</p>
+      <div class="article-grid" id="articles" aria-live="polite"></div>
+      <p id="empty" hidden>No stories found. Try another word or category.</p>
+    </section>
+    <section class="philosophy" id="philosophy"><div class="wrap philosophy-inner"><div class="philosophy-photo"><img loading="lazy" src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=1000&q=85" alt="Olive oil, olives, and herbs on a rustic table"></div><div class="philosophy-copy"><p class="eyebrow">THE LONGLIVITY WAY</p><h2>More nourishment.<br>Less <em>noise.</em></h2><p>Living well doesn’t need to become another thing to get right. This space is about making room for nourishing meals, moments of movement, and the simple pleasure of feeling connected to your day.</p><p>Not a perfect routine. A life you enjoy returning to.</p><a class="text-link" href="https://www.instagram.com/longlivity.bynona/" target="_blank" rel="noopener noreferrer">Follow the story on Instagram ↗</a></div></div></section>
+    <section class="instagram wrap"><p class="eyebrow">LET’S KEEP IN TOUCH</p><h2>A daily dose of <em>good.</em></h2><p>Follow along for the next chapter of Longlivity by Nona.</p><a class="button" href="https://www.instagram.com/longlivity.bynona/" target="_blank" rel="noopener noreferrer">@longlivity.bynona <span>↗</span></a></section>
+  </main>
+  <footer class="wrap"><a class="wordmark" href="#">longlivity<span>BY NONA</span></a><p>A little more life, every day.</p><small>© <span id="year"></span> Longlivity by Nona<br>General inspiration, not personal medical advice.</small></footer>
+  <dialog id="story-dialog" aria-labelledby="story-title"><button id="close-dialog" aria-label="Close article">✕</button><div id="story-content"></div></dialog>
+</body>
+</html>
