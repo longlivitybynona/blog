@@ -14,6 +14,7 @@ Open http://localhost:3000. To validate and build:
 
 ```sh
 npm run check
+npm test
 npm run build
 ```
 
@@ -35,6 +36,8 @@ Photos load from Unsplash and fonts from Google Fonts, requiring internet access
 ## GitHub Pages
 
 In repository Settings → Pages, choose **GitHub Actions** as the build and deployment source. The Pages workflow builds and deploys whenever changes reach `main`, and can also be run manually from Actions.
+
+Pull requests targeting `main` run syntax checks, interaction tests, and a production build without deploying. Deployment runs only after a successful build on `main`; Pages write permissions are limited to the deployment job. No personal access token or third-party hosting secrets are required. Merge pull requests only when the `build` check passes; you can enforce this with a GitHub branch rule.
 
 Expected public URL after a successful deployment: https://longlivitybynona.github.io/blog/
 
