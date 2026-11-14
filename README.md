@@ -36,6 +36,6 @@ Photos load from Unsplash and fonts from Google Fonts, requiring internet access
 
 In repository Settings → Pages, choose **GitHub Actions** as the build and deployment source. The Pages workflow builds and deploys whenever changes reach `main`, and can also be run manually from Actions.
 
-Expected public URL after a successful deployment: https://elonathanasi-28.github.io/blog/
+Expected public URL after a successful deployment: https://longlivitybynona.github.io/blog/
 
 The owner authorized merging and deployment to GitHub Pages. Initial stories remain labeled as editorial drafts.
