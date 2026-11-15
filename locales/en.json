@@ -1,0 +1,186 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "locale": "en",
+  "siteTitle": "Longlivity by Nona — Food, longevity & everyday wellness",
+  "siteDescription": "Explore nourishing food, a quick chickpea bowl, and thoughtful everyday habits for healthy aging. Read Longlivity by Nona in English.",
+  "announcement": "A slower pace. A fuller plate. A longer story.",
+  "homeLabel": "Longlivity by Nona home",
+  "navLabel": "Main navigation",
+  "languageLabel": "Choose language",
+  "switchDe": "Read this page in German",
+  "switchEn": "Read this page in English",
+  "journal": "The journal",
+  "about": "About Nona",
+  "instagram": "Instagram",
+  "inspiration": "Find your inspiration",
+  "heroEyebrow": "THE ART OF LIVING WELL",
+  "heroTitle": "A little more life.<br>A little more <em>you.</em>",
+  "heroIntro": "Good food. Thoughtful rituals. Room to breathe.<br>Explore a gentler approach to living well, for longer.",
+  "explore": "Explore the journal",
+  "heroNote": "Rooted in curiosity.<br>Made for everyday life.",
+  "heroAlt": "A colorful bowl of fresh vegetables and nourishing ingredients",
+  "photoLabel": "NOURISH YOUR EVERYDAY",
+  "stamp": "eat well<br><i>live fully</i>",
+  "themesLabel": "Our themes",
+  "values": [
+    "Food that feels good",
+    "Small, meaningful rituals",
+    "Curiosity over perfection",
+    "Wellness, at your own pace"
+  ],
+  "journalEyebrow": "A FRESH PERSPECTIVE",
+  "journalTitle": "The everyday journal",
+  "journalIntro": "Ideas to nourish your plate,<br>your mind, and the life in between.",
+  "filterLabel": "Filter articles",
+  "categories": {
+    "All": "All stories",
+    "Food": "Food & recipes",
+    "Longevity": "Longevity",
+    "Nutrition": "Nutrition",
+    "Wellness": "Wellness"
+  },
+  "searchLabel": "Search stories",
+  "searchPlaceholder": "Find a little inspiration…",
+  "draftNote": "THE FIRST CHAPTER · Draft stories, awaiting Nona’s editorial review",
+  "empty": "No stories found. Try another word or category.",
+  "readMore": "Read the story",
+  "minutes": "min read",
+  "draft": "EDITORIAL DRAFT",
+  "draftDisclaimer": "Draft content for Nona’s review. General information only; not individualized nutrition or medical advice.",
+  "philosophyEyebrow": "THE LONGLIVITY WAY",
+  "philosophyTitle": "More nourishment.<br>Less <em>noise.</em>",
+  "philosophyParagraphs": [
+    "Living well doesn’t need to become another thing to get right. This space is about making room for nourishing meals, moments of movement, and the simple pleasure of feeling connected to your day.",
+    "Not a perfect routine. A life you enjoy returning to."
+  ],
+  "philosophyAlt": "Olive oil, olives, and herbs on a rustic table",
+  "followStory": "Follow the story on Instagram",
+  "contactEyebrow": "LET’S KEEP IN TOUCH",
+  "contactTitle": "A daily dose of <em>good.</em>",
+  "contactIntro": "Follow along for the next chapter of Longlivity by Nona.",
+  "footerTagline": "A little more life, every day.",
+  "disclaimer": "General inspiration, not personal medical advice.",
+  "legalNav": "Legal information",
+  "privacy": "Privacy",
+  "legal": "Legal notice",
+  "back": "Back to the journal",
+  "skip": "Skip to content",
+  "notFoundTitle": "This page could not be found",
+  "notFoundText": "The address may have changed. Return to the journal to find your next story.",
+  "recipeLabels": {
+    "servings": "Servings",
+    "prep": "Preparation",
+    "cook": "Cooking",
+    "total": "Total",
+    "minutes": "minutes",
+    "ingredients": "Ingredients",
+    "steps": "Method",
+    "tip": "A useful tip"
+  },
+  "pages": {
+    "about": {
+      "slug": "about-nona",
+      "title": "About Nona",
+      "description": "Discover the ideas behind Longlivity by Nona: food to enjoy, everyday curiosity, and a gentler approach to wellness.",
+      "body": "<p>Longlivity by Nona is a place for nourishing food, curiosity about healthy aging, and small habits that fit real life.</p><h2>A thoughtful approach to living well</h2><p>The journal brings together practical food ideas, quick recipes, and reflections on everyday wellbeing. Enjoyment and flexibility belong at the table, alongside an interest in nutrition.</p><p>The stories are currently editorial drafts for Nona’s review. Follow @longlivity.bynona on Instagram for the connected account.</p>"
+    },
+    "privacy": {
+      "slug": "privacy",
+      "title": "Privacy",
+      "description": "How this static blog works, which external services it uses, and what happens when you follow its links.",
+      "body": "<h2>Visiting this blog</h2><p>This is a static website hosted on GitHub Pages. No analytics, advertising trackers, account registration, newsletter subscription, or contact forms are configured in the site code. GitHub processes technical request information when serving the site; see its privacy statement below.</p><h2>Your language preference</h2><p>If your browser allows local storage, choosing DE or EN saves only the language code in localStorage under <code>longlivity.language</code>. It stays in your browser and is not sent to us. Clear the site’s browser data to remove it. Language-specific URLs work without local storage.</p><h2>External images and fonts</h2><p>Photos are loaded from Unsplash and fonts from Google Fonts. Requests to these services transmit technical information such as your IP address to their providers. Visiting Instagram through a link opens an external website; there is no embedded Instagram feed.</p><h2>Provider information</h2><ul><li><a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noopener noreferrer\" target=\"_blank\">GitHub privacy statement</a></li><li><a href=\"https://unsplash.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">Unsplash privacy policy</a></li><li><a href=\"https://policies.google.com/privacy?hl=en\" rel=\"noopener noreferrer\" target=\"_blank\">Google privacy policy</a></li><li><a href=\"https://privacycenter.instagram.com/policy/\" rel=\"noopener noreferrer\" target=\"_blank\">Instagram privacy policy</a></li></ul><h2>Scope of this information</h2><p>This page describes the current technical setup. The site operator’s verified identity, contact details, and any additional legally required information have not been provided. This is not a complete, legally reviewed privacy notice.</p>"
+    },
+    "legal": {
+      "slug": "legal-notice",
+      "title": "Legal notice",
+      "description": "The current status of the legal information for Longlivity by Nona and its educational content.",
+      "body": "<h2>About this website</h2><p>The name of this website is Longlivity by Nona. Its connected Instagram account is @longlivity.bynona.</p><h2>Editorial information</h2><p>The journal contains general educational ideas about food and everyday wellbeing. It does not provide individualized medical or nutrition advice. Starter stories are labeled as editorial drafts.</p><h2>Legal information is incomplete</h2><p>Verified operator details, a postal address, and direct contact information have not been supplied. This page is not a complete legal notice. Those details and any further requirements must be reviewed and supplied by the operator.</p>"
+    }
+  },
+  "stories": [
+    {
+      "id": "colorful-bowl",
+      "category": "Food",
+      "title": "A colorful chickpea bowl in 15 minutes",
+      "description": "A quick bowl with chickpeas, fresh vegetables, and a lemon dressing, using grains you have already cooked.",
+      "photo": "photo-1512621776951-a57141f2eefd",
+      "alt": "A vibrant vegetable bowl",
+      "body": "<p>A satisfying bowl does not need a long recipe. This version combines chickpeas, crisp vegetables, and cooked grains with a simple lemon dressing. Use it as a starting point and adapt it to what you enjoy.</p><p>The photo is illustrative and does not show this exact recipe.</p>",
+      "slug": "everyday-bowl",
+      "recipe": {
+        "servings": 2,
+        "prep": 10,
+        "cook": 5,
+        "total": 15,
+        "ingredients": [
+          "250 g cooked brown rice or quinoa (ready to eat; not dry)",
+          "240 g canned chickpeas, drained and rinsed",
+          "1 cucumber (about 200 g)",
+          "200 g cherry tomatoes",
+          "2 tbsp olive oil",
+          "1 tbsp lemon juice",
+          "2 tbsp chopped parsley",
+          "Salt and pepper, to taste"
+        ],
+        "steps": [
+          "Wash the cucumber, tomatoes, and parsley. Dice the cucumber, halve the tomatoes, and chop the parsley.",
+          "Warm the cooked grains and chickpeas in a pan over medium heat for about 5 minutes, stirring, until steaming hot throughout. Add a splash of water if needed.",
+          "Whisk the olive oil, lemon juice, salt, and pepper in a bowl. Divide the warm grains and chickpeas between two bowls.",
+          "Add the vegetables and parsley, drizzle with dressing, and serve."
+        ],
+        "tip": "For a gluten-free version, use rice or quinoa and check packaged ingredients. Swap parsley for fresh dill if you prefer. Follow the storage and reheating instructions on pre-cooked grains."
+      }
+    },
+    {
+      "id": "daily-walk",
+      "category": "Longevity",
+      "title": "Make room for a walk, without making it a project",
+      "description": "Finding a comfortable rhythm of movement in the day you already have.",
+      "photo": "photo-1441974231531-c6227db76b6e",
+      "alt": "Sunlight falling through trees along a forest path",
+      "body": "<p>A walk can be a chance to step away from a screen, notice your surroundings, or spend time with someone you care about. There is no need to turn every outing into a performance.</p><h2>Start where you are</h2><p>Choose an accessible route and a duration that feels comfortable for your abilities. A short outing is a reasonable place to begin. Indoor movement and mobility adaptations can be equally valid ways to make space for activity.</p><p>If you have a health condition or are changing your activity routine, seek advice tailored to you from a qualified professional.</p>",
+      "slug": "daily-walk"
+    },
+    {
+      "id": "pantry",
+      "category": "Nutrition",
+      "title": "A thoughtful pantry for meals that feel effortless",
+      "description": "Everyday ingredients that make cooking a little more inviting.",
+      "photo": "photo-1474979266404-7eaacbcd87c5",
+      "alt": "Olives and olive oil with fresh herbs",
+      "body": "<p>A useful pantry reflects the food you actually like to cook. Start with a few versatile ingredients rather than a long list of things you feel you should own.</p><h2>A simple starting point</h2><ul><li>Beans or lentils, canned or dried.</li><li>A grain you enjoy and know how to prepare.</li><li>Olive oil, vinegar, and a few favorite seasonings.</li><li>Nuts or seeds, where suitable for your dietary needs.</li><li>Frozen vegetables for days when fresh ingredients run low.</li></ul><p>Check labels for allergens and storage instructions. Choose what fits your budget, culture, and personal needs.</p>",
+      "slug": "thoughtful-pantry"
+    },
+    {
+      "id": "quiet-morning",
+      "category": "Wellness",
+      "title": "A quieter beginning to your morning",
+      "description": "Small pockets of calm, before the rest of the day comes calling.",
+      "photo": "photo-1442512595331-e89e73853f31",
+      "alt": "A warm cup of coffee on a table",
+      "body": "<p>Not every morning has room for an elaborate ritual. Sometimes a small pause is enough: opening a curtain, sitting with a warm drink, or taking a moment before looking at your phone.</p><h2>Choose one small thing</h2><p>Pick something that feels supportive rather than demanding. You might prepare breakfast the evening before, leave a book by your chair, or step outside to notice the weather.</p><p>Let your routine change with your circumstances. A useful ritual should serve your life.</p>",
+      "slug": "quiet-morning"
+    },
+    {
+      "id": "seasonal-table",
+      "category": "Food",
+      "title": "Let the season find its way to your table",
+      "description": "A curious, uncomplicated approach to choosing your next meal.",
+      "photo": "photo-1542838132-92c53300491e",
+      "alt": "An assortment of colorful fresh produce",
+      "body": "<p>Seasonal cooking can begin with one ingredient that catches your eye. Choose something you enjoy, then build a familiar meal around it.</p><h2>Keep it flexible</h2><p>Roast vegetables with olive oil and herbs, fold greens into a grain dish, or serve fruit with yogurt if that suits your diet. Frozen and canned produce can also be practical choices.</p><p>There is no single perfect shopping basket. Availability, cost, taste, and convenience all have a place at the table.</p>",
+      "slug": "seasonal-table"
+    },
+    {
+      "id": "shared-table",
+      "category": "Wellness",
+      "title": "The simple pleasure of a shared table",
+      "description": "Making space for connection, one ordinary meal at a time.",
+      "photo": "photo-1414235077428-338989a2e8c0",
+      "alt": "A thoughtfully prepared meal at a dining table",
+      "body": "<p>A shared meal does not require a special occasion. Soup, leftovers, or a simple plate can be an invitation to pause together.</p><h2>Make it easy to say yes</h2><p>Keep the food uncomplicated, ask about dietary needs, and let people contribute if they would like. Connection can happen over a short lunch as easily as a long dinner.</p><p>When meeting in person is difficult, a phone call while you cook or a recipe exchanged with a friend can offer another way to stay connected.</p>",
+      "slug": "shared-table"
+    }
+  ]
+}
