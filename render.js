@@ -2,7 +2,7 @@ export const BASE = '/blog/';
 export const ORIGIN = 'https://longlivitybynona.github.io';
 export const INSTAGRAM = 'https://www.instagram.com/longlivity.bynona/';
 export const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export const image = (id, width = 900) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=80`;
+export const image = (id, width = 900) => id.startsWith(BASE + 'assets/') ? ORIGIN + id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=80`;
 export function routePath(lang, key = 'home', resources) {
   const r = resources[lang];
   if (key === 'home' || key === 'notFound') return `${BASE}${lang}/`;
@@ -101,9 +101,10 @@ function renderContent(route,resources) {
   const r=resources[route.lang], story=r.stories.find(s=>s.id===route.key), page=r.pages[route.key];
   if (!story && !page) return `<section class="reading-page wrap"><h1>${r.notFoundTitle}</h1><p>${r.notFoundText}</p><a class="text-link" data-route href="${routePath(route.lang,'home',resources)}">${r.back}</a></section>`;
   const item=story||page;
-  return `<article class="reading-page wrap"><a class="text-link" data-route href="${routePath(route.lang,'home',resources)}#journal">← ${r.back}</a>${story?`<p class="eyebrow">${r.categories[story.category]} · ${readingTime(story)} ${r.minutes} · ${r.draft}</p>`:''}<h1>${escapeHTML(item.title)}</h1><p class="article-excerpt">${escapeHTML(item.description)}</p>${story?`<img class="article-photo" src="${image(story.photo,1200)}" alt="${escapeHTML(story.alt)}" width="1200" height="650" decoding="async">`:''}<div class="article-body">${item.body}${story?.recipe?renderRecipe(story.recipe,r):''}</div>${story?`<p class="article-disclaimer">${r.draftDisclaimer}</p>`:''}</article>`;
+  return `<article class="reading-page wrap"><a class="text-link" data-route href="${routePath(route.lang,'home',resources)}#journal">← ${r.back}</a>${story?`<p class="eyebrow">${r.categories[story.category]} · ${readingTime(story)} ${r.minutes}${story.status === 'published' ? '' : ` · ${r.draft}`}</p>`:''}<h1>${escapeHTML(item.title)}</h1><p class="article-excerpt">${escapeHTML(item.description)}</p>${story?`<img class="article-photo" src="${image(story.photo,1200)}" alt="${escapeHTML(story.alt)}" width="1200" height="650" decoding="async">`:''}<div class="article-body">${item.body}${story?.recipe?renderRecipe(story.recipe,r):''}</div>${story && story.status !== 'published'?`<p class="article-disclaimer">${r.draftDisclaimer}</p>`:''}</article>`;
 }
 function renderRecipe(recipe,r) {
   const l=r.recipeLabels;
   return `<section class="recipe"><dl class="recipe-facts"><div><dt>${l.servings}</dt><dd>${recipe.servings}</dd></div>${['prep','cook','total'].map(k=>`<div><dt>${l[k]}</dt><dd>${recipe[k]} ${l.minutes}</dd></div>`).join('')}</dl><h2>${l.ingredients}</h2><ul>${recipe.ingredients.map(i=>`<li>${escapeHTML(i)}</li>`).join('')}</ul><h2>${l.steps}</h2><ol>${recipe.steps.map(s=>`<li>${escapeHTML(s)}</li>`).join('')}</ol><h2>${l.tip}</h2><p>${escapeHTML(recipe.tip)}</p></section>`;
 }
+

@@ -42,7 +42,7 @@
   },
   "searchLabel": "Beiträge durchsuchen",
   "searchPlaceholder": "Wonach suchst du heute?",
-  "draftNote": "DAS ERSTE KAPITEL · Artikelentwürfe zur redaktionellen Freigabe durch Nona",
+  "draftNote": "DAS JOURNAL · Die ersten Beiträge sind weiterhin als redaktionelle Entwürfe gekennzeichnet.",
   "empty": "Keine Beiträge gefunden. Probiere ein anderes Wort oder eine andere Kategorie.",
   "readMore": "Beitrag lesen",
   "minutes": "Min. Lesezeit",
@@ -181,6 +181,43 @@
       "alt": "Ein liebevoll angerichtetes Essen auf einem gedeckten Tisch",
       "body": "<p>Für eine gemeinsame Mahlzeit braucht es keinen besonderen Anlass. Eine Suppe, Reste vom Vortag oder ein einfaches Gericht können eine Einladung sein, zusammen innezuhalten.</p><h2>Mach es leicht, Ja zu sagen</h2><p>Halte das Essen unkompliziert, frage nach Ernährungsbedürfnissen und lass andere etwas beitragen, wenn sie möchten. Nähe kann bei einem kurzen Mittagessen genauso entstehen wie bei einem langen Abendessen.</p><p>Wenn ein Treffen schwierig ist, können ein Telefonat beim Kochen oder ein Rezept, das du mit einem lieben Menschen teilst, eine andere Form der Verbindung sein.</p>",
       "slug": "gemeinsam-essen"
+    },
+    {
+      "id": "protein-pancakes",
+      "category": "Food",
+      "photo": "/blog/assets/protein-pancakes.webp",
+      "status": "published",
+      "title": "Protein Pancakes mit Joghurt und Himbeeren",
+      "slug": "protein-pancakes-joghurt-himbeeren",
+      "description": "Kleine Pancakes mit Hüttenkäse und Mandelmehl, dazu griechischer Joghurt und frische Himbeeren: ein warmes Frühstück in etwa 15 Minuten.",
+      "alt": "KI-generierte Illustration: drei goldbraune Pancakes mit Joghurt und Himbeeren auf einem hellen Teller",
+      "body": "<p>Wenn du morgens Lust auf etwas Warmes hast, probiere diese kleinen Pancakes aus. Hüttenkäse und Mandelmehl bilden die Basis, Vanille sorgt für einen feinen Duft. Dazu passen griechischer Naturjoghurt und frische Himbeeren, die einen säuerlichen Akzent setzen.</p><p>Halte die Pancakes klein, damit sie sich leichter wenden lassen. Bei mittlerer bis niedriger Hitze haben sie Zeit, innen durchzugaren, während die Oberfläche goldbraun wird.</p><p><small>Testrezept, nicht praktisch erprobt. Das Bild wurde mit KI erstellt und dient als Servieridee.</small></p>",
+      "recipe": {
+        "servings": 1,
+        "prep": 5,
+        "cook": 10,
+        "total": 15,
+        "ingredients": [
+          "100 g Hüttenkäse (körniger Frischkäse)",
+          "1 Ei",
+          "20 g Mandelmehl",
+          "10 g Proteinpulver ohne Zuckerzusatz",
+          "¼ TL Backpulver",
+          "Etwas Vanille",
+          "1 Prise Salz",
+          "5 g Butter zum Ausbacken",
+          "Für das Topping: 30 g griechischer Naturjoghurt",
+          "Für das Topping: 15 g frische Himbeeren"
+        ],
+        "steps": [
+          "Hüttenkäse und Ei in einer Schüssel verrühren. Mandelmehl, Proteinpulver, Backpulver, Vanille und Salz dazugeben und gleichmäßig vermengen. Die Körnchen des Hüttenkäses dürfen sichtbar bleiben.",
+          "Die Butter in einer beschichteten Pfanne bei mittlerer bis niedriger Hitze schmelzen lassen.",
+          "Den Teig in drei bis vier kleinen Portionen in die Pfanne geben und leicht flach streichen. Etwa 3–4 Minuten backen, bis die Unterseiten goldbraun sind und die Ränder fest werden.",
+          "Vorsichtig wenden und weitere 2–3 Minuten backen. Die Pancakes sollen auch innen durchgegart sein; bei Bedarf die Hitze reduzieren und etwas länger backen.",
+          "Himbeeren waschen und abtropfen lassen. Die Pancakes mit dem Joghurt und den Beeren servieren."
+        ],
+        "tip": "Zerdrücke einen Teil der Himbeeren auf dem Joghurt, damit sich ihr Saft über dem Topping verteilt. Enthält Milch, Ei und Mandeln. Beachte zusätzlich die Allergenangaben auf dem Proteinpulver. Die Zeitangaben sind Richtwerte; wenn nicht alle Pancakes zugleich in die Pfanne passen, dauert das Ausbacken länger."
+      }
     }
   ]
 }

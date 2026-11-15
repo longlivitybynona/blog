@@ -23,7 +23,7 @@ test('both resources contain the same UI keys, articles, recipe quantities, and 
 });
 
 test('all stable localized routes resolve and map to their equivalent page',()=>{
-  assert.equal(allRoutes(resources).length,20);
+  assert.equal(allRoutes(resources).length,22);
   for(const route of allRoutes(resources)) {
     const path=routePath(route.lang,route.key,resources);
     assert.deepEqual(resolveRoute(path,resources),route);
@@ -59,7 +59,7 @@ test('each page has translated titles, descriptions, canonical, hreflang, and st
     const other=metadata({...route,lang:route.lang==='de'?'en':'de'},resources);
     assert.notEqual(m.title,other.title);assert.notEqual(m.description,other.description);
     const structured=structuredData(route,resources);
-    if(m.item?.recipe) {assert.equal(structured['@type'],'Recipe');assert.equal(structured.recipeInstructions.length,4);}
+    if(m.item?.recipe) {assert.equal(structured['@type'],'Recipe');assert.equal(structured.recipeInstructions.length,m.item.recipe.steps.length);}
   }
 });
 
@@ -160,7 +160,23 @@ test('production output has real HTML for all routes and no broken internal link
   }
   assert.ok(existsSync('dist/data.js'));assert.ok(existsSync('dist/.nojekyll'));
   const sitemap=readFileSync('dist/sitemap.xml','utf8');
-  assert.equal((sitemap.match(/<loc>/g)||[]).length,20);
-  assert.equal((sitemap.match(/hreflang="x-default"/g)||[]).length,20);
+  assert.equal((sitemap.match(/<loc>/g)||[]).length,22);
+  assert.equal((sitemap.match(/hreflang="x-default"/g)||[]).length,22);
   assert.match(readFileSync('dist/404.html','utf8'),/noindex,follow/);
+});
+
+
+
+test('published pancake pages use the hosted image in HTML and metadata without draft labels',()=>{
+  for(const lang of ['de','en']) {
+    const route={lang,key:'protein-pancakes'}, html=renderSite(route,resources);
+    const data=structuredData(route,resources);
+    assert.equal(data.image,ORIGIN+BASE+'assets/protein-pancakes.webp');
+    assert.ok(html.includes(`src="${data.image}"`));
+    assert.ok(!html.includes(resources[lang].draftDisclaimer));
+    assert.ok(!html.includes(resources[lang].draft+'</p>'));
+    assert.ok(renderHead(route,resources).includes(`property="og:image" content="${data.image}"`));
+    assert.ok(existsSync('dist/assets/protein-pancakes.webp'));
+    assert.equal(filteredStories(resources[lang],'Food','pancakes').length,1);
+  }
 });

@@ -42,7 +42,7 @@
   },
   "searchLabel": "Search stories",
   "searchPlaceholder": "Find a little inspiration…",
-  "draftNote": "THE FIRST CHAPTER · Draft stories, awaiting Nona’s editorial review",
+  "draftNote": "THE JOURNAL · Starter stories remain labeled as editorial drafts.",
   "empty": "No stories found. Try another word or category.",
   "readMore": "Read the story",
   "minutes": "min read",
@@ -181,6 +181,43 @@
       "alt": "A thoughtfully prepared meal at a dining table",
       "body": "<p>A shared meal does not require a special occasion. Soup, leftovers, or a simple plate can be an invitation to pause together.</p><h2>Make it easy to say yes</h2><p>Keep the food uncomplicated, ask about dietary needs, and let people contribute if they would like. Connection can happen over a short lunch as easily as a long dinner.</p><p>When meeting in person is difficult, a phone call while you cook or a recipe exchanged with a friend can offer another way to stay connected.</p>",
       "slug": "shared-table"
+    },
+    {
+      "id": "protein-pancakes",
+      "category": "Food",
+      "photo": "/blog/assets/protein-pancakes.webp",
+      "status": "published",
+      "title": "Protein pancakes with yogurt and raspberries",
+      "slug": "protein-pancakes-yogurt-raspberries",
+      "description": "Small pancakes made with cottage cheese and almond flour, topped with Greek yogurt and fresh raspberries: a warm breakfast in about 15 minutes.",
+      "alt": "AI-generated illustration of three golden pancakes with yogurt and raspberries on a light plate",
+      "body": "<p>When you feel like a warm breakfast, give these small pancakes a try. Cottage cheese and almond flour form the base, with vanilla adding a gentle aroma. Plain Greek yogurt and fresh raspberries bring a cool, tangy finish.</p><p>Keep the pancakes small to make turning them easier. Medium-low heat gives them time to cook through while the outside turns golden brown.</p><p><small>Trial recipe; not kitchen-tested. The image is AI-generated and illustrates a serving idea.</small></p>",
+      "recipe": {
+        "servings": 1,
+        "prep": 5,
+        "cook": 10,
+        "total": 15,
+        "ingredients": [
+          "100 g cottage cheese",
+          "1 egg",
+          "20 g almond flour",
+          "10 g protein powder with no added sugar",
+          "¼ tsp baking powder",
+          "A little vanilla",
+          "1 pinch of salt",
+          "5 g butter for frying",
+          "For the topping: 30 g plain Greek yogurt",
+          "For the topping: 15 g fresh raspberries"
+        ],
+        "steps": [
+          "Stir the cottage cheese and egg together in a bowl. Add the almond flour, protein powder, baking powder, vanilla and salt, and mix evenly. Small cottage cheese curds can remain visible.",
+          "Melt the butter in a nonstick frying pan over medium-low heat.",
+          "Spoon the batter into three or four small pancakes and gently flatten. Cook for about 3–4 minutes, until the undersides are golden and the edges start to set.",
+          "Turn carefully and cook for another 2–3 minutes. The centres should be cooked through; lower the heat and cook a little longer if needed.",
+          "Wash and drain the raspberries. Serve the pancakes with the yogurt and berries."
+        ],
+        "tip": "Crush some of the raspberries into the yogurt to spread their juice through the topping. Contains milk, egg and almonds. Also check the protein powder label for allergens. Times are approximate; cooking takes longer if the pancakes do not all fit in the pan at once."
+      }
     }
   ]
 }
