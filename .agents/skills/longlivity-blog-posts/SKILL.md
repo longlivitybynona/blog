@@ -66,7 +66,7 @@ Return the article first, followed by a compact editorial block:
 - **Status:** Draft for Nona's review.
 - **Sources:** when applicable.
 
-Writing a post does not authorize publishing it. When the user asks to add it to the site, inspect the current structure before editing. The initial site stores stories in `app.js`; preserve its existing schema and other stories. Escape any inserted HTML and JavaScript correctly and use an appropriate image only when authorized and available. Do not imply stock imagery depicts the prepared recipe.
+Writing a post does not authorize publishing it. When the user asks to add it to the site, inspect the current structure before editing. The bilingual site stores stories in `locales/de.json` and `locales/en.json`. Add a naturally written version in each language, sharing the same stable article `id` and category key but using language-specific slugs, titles, excerpts, image descriptions, and bodies. Keep ingredients, quantities, timing, and scientific meaning equivalent. Translate all reader-facing text, including recipe labels and caveats; never use browser-generated translations. Preserve the existing schema and other stories. Escape inserted HTML and JSON correctly and use an appropriate image only when authorized and available. Do not imply stock imagery depicts the prepared recipe. Run the site's checks, tests, and production build to verify both language routes and metadata.
 
 Do not push or publish a newly written post unless the user asks for that action. Existing deployment approval for the initial website is not blanket approval for future articles.
 

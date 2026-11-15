@@ -1,0 +1,186 @@
+{
+  "lang": "de",
+  "htmlLang": "de-DE",
+  "locale": "de-DE",
+  "siteTitle": "Longlivity by Nona — Ernährung, Rezepte & gesundes Älterwerden",
+  "siteDescription": "Entdecke genussvolle Ernährung, eine schnelle Kichererbsen-Bowl und kleine Gewohnheiten für den Alltag. Longlivity by Nona auf Deutsch.",
+  "announcement": "Mehr Ruhe. Mehr Genuss. Mehr vom Leben.",
+  "homeLabel": "Longlivity by Nona Startseite",
+  "navLabel": "Hauptnavigation",
+  "languageLabel": "Sprache wählen",
+  "switchDe": "Diese Seite auf Deutsch lesen",
+  "switchEn": "Diese Seite auf Englisch lesen",
+  "journal": "Das Journal",
+  "about": "Über Nona",
+  "instagram": "Instagram",
+  "inspiration": "Lass dich inspirieren",
+  "heroEyebrow": "DIE KUNST, GUT ZU LEBEN",
+  "heroTitle": "Ein bisschen mehr Leben.<br>Ein bisschen mehr <em>du.</em>",
+  "heroIntro": "Gutes Essen. Kleine Rituale. Zeit zum Durchatmen.<br>Entdecke einen entspannten Weg, bewusster zu leben und älter zu werden.",
+  "explore": "Zum Journal",
+  "heroNote": "Mit Neugier entdecken.<br>Für den Alltag gemacht.",
+  "heroAlt": "Eine bunte Schale mit frischem Gemüse und vielseitigen Zutaten",
+  "photoLabel": "GENUSS FÜR DEINEN ALLTAG",
+  "stamp": "gut essen<br><i>bewusst leben</i>",
+  "themesLabel": "Unsere Themen",
+  "values": [
+    "Essen, das Freude macht",
+    "Kleine, wertvolle Rituale",
+    "Neugier statt Perfektion",
+    "Wohlbefinden in deinem Tempo"
+  ],
+  "journalEyebrow": "NEUE PERSPEKTIVEN",
+  "journalTitle": "Das Journal für deinen Alltag",
+  "journalIntro": "Ideen für deinen Teller,<br>deinen Kopf und das Leben dazwischen.",
+  "filterLabel": "Artikel filtern",
+  "categories": {
+    "All": "Alle Beiträge",
+    "Food": "Essen & Rezepte",
+    "Longevity": "Langlebigkeit",
+    "Nutrition": "Ernährung",
+    "Wellness": "Wohlbefinden"
+  },
+  "searchLabel": "Beiträge durchsuchen",
+  "searchPlaceholder": "Wonach suchst du heute?",
+  "draftNote": "DAS ERSTE KAPITEL · Artikelentwürfe zur redaktionellen Freigabe durch Nona",
+  "empty": "Keine Beiträge gefunden. Probiere ein anderes Wort oder eine andere Kategorie.",
+  "readMore": "Beitrag lesen",
+  "minutes": "Min. Lesezeit",
+  "draft": "REDAKTIONELLER ENTWURF",
+  "draftDisclaimer": "Artikelentwurf zur Freigabe durch Nona. Allgemeine Informationen, keine individuelle Ernährungs- oder medizinische Beratung.",
+  "philosophyEyebrow": "DIE LONGLIVITY-IDEE",
+  "philosophyTitle": "Mehr, was dir guttut.<br>Weniger <em>müssen.</em>",
+  "philosophyParagraphs": [
+    "Gut zu leben muss nicht noch eine Aufgabe sein, die du perfekt erfüllen sollst. Hier geht es um genussvolle Mahlzeiten, kleine Bewegungspausen und die Freude daran, deinen Alltag bewusst wahrzunehmen.",
+    "Keine perfekte Routine. Sondern ein Leben, in dem du dich wohlfühlst."
+  ],
+  "philosophyAlt": "Olivenöl, Oliven und Kräuter auf einem rustikalen Tisch",
+  "followStory": "Entdecke mehr auf Instagram",
+  "contactEyebrow": "BLEIBEN WIR IN VERBINDUNG",
+  "contactTitle": "Jeden Tag ein bisschen <em>Gutes.</em>",
+  "contactIntro": "Begleite das nächste Kapitel von Longlivity by Nona.",
+  "footerTagline": "Jeden Tag ein bisschen mehr Leben.",
+  "disclaimer": "Inspiration für den Alltag, keine persönliche medizinische Beratung.",
+  "legalNav": "Rechtliche Informationen",
+  "privacy": "Datenschutz",
+  "legal": "Impressum",
+  "back": "Zurück zum Journal",
+  "skip": "Zum Inhalt springen",
+  "notFoundTitle": "Diese Seite wurde nicht gefunden",
+  "notFoundText": "Vielleicht hat sich die Adresse geändert. Im Journal findest du alle Beiträge.",
+  "recipeLabels": {
+    "servings": "Portionen",
+    "prep": "Vorbereitung",
+    "cook": "Zubereitung am Herd",
+    "total": "Gesamtzeit",
+    "minutes": "Minuten",
+    "ingredients": "Zutaten",
+    "steps": "So geht’s",
+    "tip": "Gut zu wissen"
+  },
+  "pages": {
+    "about": {
+      "slug": "ueber-nona",
+      "title": "Über Nona",
+      "description": "Die Idee hinter Longlivity by Nona: genussvolles Essen, Neugier im Alltag und ein entspannter Blick auf das Wohlbefinden.",
+      "body": "<p>Longlivity by Nona ist ein Ort für genussvolles Essen, Neugier auf gesundes Älterwerden und kleine Gewohnheiten, die ins echte Leben passen.</p><h2>Bewusst leben, entspannt bleiben</h2><p>Das Journal verbindet praktische Ideen rund ums Essen, schnelle Rezepte und Gedanken zum Wohlbefinden im Alltag. Genuss und Flexibilität gehören genauso dazu wie das Interesse an Ernährung.</p><p>Die Beiträge sind derzeit redaktionelle Entwürfe zur Freigabe durch Nona. Der zugehörige Instagram-Account ist @longlivity.bynona.</p>"
+    },
+    "privacy": {
+      "slug": "datenschutz",
+      "title": "Datenschutz",
+      "description": "So funktioniert dieser statische Blog: externe Dienste, deine Spracheinstellung und Links zu anderen Websites.",
+      "body": "<h2>Dein Besuch auf diesem Blog</h2><p>Diese statische Website wird über GitHub Pages bereitgestellt. Im Website-Code sind keine Analysewerkzeuge, Werbetracker, Benutzerkonten, Newsletter-Anmeldungen oder Kontaktformulare eingerichtet. GitHub verarbeitet beim Bereitstellen der Website technische Anfragedaten. Die Datenschutzerklärung des Anbieters ist unten verlinkt.</p><h2>Deine Spracheinstellung</h2><p>Wenn dein Browser lokale Speicherung erlaubt, wird beim Auswählen von DE oder EN nur der Sprachcode im localStorage unter <code>longlivity.language</code> gespeichert. Er bleibt in deinem Browser und wird nicht an uns gesendet. Du kannst ihn durch Löschen der Website-Daten entfernen. Die Sprach-URLs funktionieren auch ohne localStorage.</p><h2>Externe Bilder und Schriften</h2><p>Fotos werden von Unsplash und Schriften von Google Fonts geladen. Bei diesen Anfragen erhalten die Anbieter technische Informationen wie deine IP-Adresse. Ein Instagram-Link führt auf eine externe Website; ein Instagram-Feed ist nicht eingebettet.</p><h2>Informationen der Anbieter</h2><ul><li><a href=\"https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung von GitHub</a></li><li><a href=\"https://unsplash.com/privacy\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung von Unsplash</a></li><li><a href=\"https://policies.google.com/privacy?hl=de\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung von Google</a></li><li><a href=\"https://privacycenter.instagram.com/policy/\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung von Instagram</a></li></ul><h2>Umfang dieser Informationen</h2><p>Diese Seite beschreibt die aktuelle technische Einrichtung. Verifizierte Angaben zur verantwortlichen Person, Kontaktdaten und weitere gegebenenfalls rechtlich erforderliche Informationen wurden noch nicht bereitgestellt. Dies ist keine vollständige, rechtlich geprüfte Datenschutzerklärung.</p>"
+    },
+    "legal": {
+      "slug": "impressum",
+      "title": "Impressum",
+      "description": "Der aktuelle Stand der rechtlichen Angaben für Longlivity by Nona und Informationen zu den redaktionellen Inhalten.",
+      "body": "<h2>Über diese Website</h2><p>Diese Website heißt Longlivity by Nona. Der zugehörige Instagram-Account ist @longlivity.bynona.</p><h2>Redaktionelle Informationen</h2><p>Das Journal enthält allgemeine Anregungen zu Ernährung und Wohlbefinden im Alltag. Es bietet keine individuelle medizinische oder ernährungsbezogene Beratung. Die ersten Beiträge sind als redaktionelle Entwürfe gekennzeichnet.</p><h2>Rechtliche Angaben sind unvollständig</h2><p>Verifizierte Betreiberangaben, eine ladungsfähige Anschrift und direkte Kontaktdaten wurden noch nicht bereitgestellt. Diese Seite ist kein vollständiges Impressum. Die verantwortliche Person muss diese Angaben und weitere geltende Anforderungen prüfen und ergänzen.</p>"
+    }
+  },
+  "stories": [
+    {
+      "id": "colorful-bowl",
+      "category": "Food",
+      "title": "Eine bunte Kichererbsen-Bowl in 15 Minuten",
+      "description": "Eine schnelle Bowl mit Kichererbsen, frischem Gemüse und Zitronendressing – mit Getreide, das schon gekocht ist.",
+      "photo": "photo-1512621776951-a57141f2eefd",
+      "alt": "Eine bunte Gemüse-Bowl",
+      "body": "<p>Für eine sättigende Bowl brauchst du kein langes Rezept. Hier treffen Kichererbsen, knackiges Gemüse und gekochtes Getreide auf ein einfaches Zitronendressing. Nimm das Rezept als Ausgangspunkt und passe es an deinen Geschmack an.</p><p>Das Foto dient der Illustration und zeigt nicht dieses konkrete Rezept.</p>",
+      "slug": "bunte-bowl",
+      "recipe": {
+        "servings": 2,
+        "prep": 10,
+        "cook": 5,
+        "total": 15,
+        "ingredients": [
+          "250 g gekochter Vollkornreis oder Quinoa (verzehrfertig, nicht trocken)",
+          "240 g Kichererbsen aus der Dose, abgetropft und abgespült",
+          "1 Gurke (etwa 200 g)",
+          "200 g Kirschtomaten",
+          "2 EL Olivenöl",
+          "1 EL Zitronensaft",
+          "2 EL gehackte Petersilie",
+          "Salz und Pfeffer nach Geschmack"
+        ],
+        "steps": [
+          "Gurke, Tomaten und Petersilie waschen. Die Gurke würfeln, die Tomaten halbieren und die Petersilie hacken.",
+          "Das gekochte Getreide und die Kichererbsen in einer Pfanne bei mittlerer Hitze unter Rühren etwa 5 Minuten erhitzen, bis alles durchgehend dampfend heiß ist. Bei Bedarf einen Schluck Wasser zugeben.",
+          "Olivenöl, Zitronensaft, Salz und Pfeffer verrühren. Das warme Getreide und die Kichererbsen auf zwei Schalen verteilen.",
+          "Gemüse und Petersilie dazugeben, mit dem Dressing beträufeln und servieren."
+        ],
+        "tip": "Für eine glutenfreie Variante Reis oder Quinoa verwenden und verpackte Zutaten prüfen. Statt Petersilie passt auch frischer Dill. Beachte bei vorgekochtem Getreide die Hinweise zur Lagerung und zum Wiedererhitzen."
+      }
+    },
+    {
+      "id": "daily-walk",
+      "category": "Longevity",
+      "title": "Ein Spaziergang, der in deinen Alltag passt",
+      "description": "Finde einen angenehmen Rhythmus für Bewegung, ohne deinen Tag neu zu planen.",
+      "photo": "photo-1441974231531-c6227db76b6e",
+      "alt": "Sonnenlicht fällt durch die Bäume an einem Waldweg",
+      "body": "<p>Ein Spaziergang kann eine Gelegenheit sein, den Bildschirm hinter dir zu lassen, deine Umgebung wahrzunehmen oder Zeit mit einem lieben Menschen zu verbringen. Nicht jede Runde muss eine Leistung sein.</p><h2>Fang dort an, wo du gerade stehst</h2><p>Wähle einen gut zugänglichen Weg und eine Dauer, die zu deinen Möglichkeiten passt. Eine kurze Runde ist ein guter Anfang. Bewegung in Innenräumen und angepasste Bewegungsformen können ebenso passende Wege sein, aktiv zu werden.</p><p>Wenn du eine Erkrankung hast oder deine Bewegung deutlich verändern möchtest, lass dich von einer qualifizierten Fachperson individuell beraten.</p>",
+      "slug": "spaziergang-im-alltag"
+    },
+    {
+      "id": "pantry",
+      "category": "Nutrition",
+      "title": "Ein kleiner Vorrat für entspanntes Kochen",
+      "description": "Alltägliche Zutaten, die Lust aufs Kochen machen und einfache Mahlzeiten erleichtern.",
+      "photo": "photo-1474979266404-7eaacbcd87c5",
+      "alt": "Oliven und Olivenöl mit frischen Kräutern",
+      "body": "<p>Ein hilfreicher Vorrat passt zu den Gerichten, die du wirklich gerne kochst. Beginne mit wenigen vielseitigen Zutaten statt mit einer langen Liste von Dingen, die du vermeintlich besitzen solltest.</p><h2>Ein einfacher Anfang</h2><ul><li>Bohnen oder Linsen, getrocknet oder aus der Dose.</li><li>Eine Getreidesorte, die du magst und zubereiten kannst.</li><li>Olivenöl, Essig und einige Lieblingsgewürze.</li><li>Nüsse oder Samen, sofern sie zu deinen Ernährungsbedürfnissen passen.</li><li>Tiefkühlgemüse für Tage, an denen das frische Gemüse aufgebraucht ist.</li></ul><p>Achte auf Allergene und Lagerhinweise auf der Verpackung. Entscheide nach deinem Budget, deinen Essgewohnheiten und deinen persönlichen Bedürfnissen.</p>",
+      "slug": "entspannter-vorrat"
+    },
+    {
+      "id": "quiet-morning",
+      "category": "Wellness",
+      "title": "Ein ruhiger Anfang für deinen Morgen",
+      "description": "Kleine Momente zum Durchatmen, bevor der Tag mit seinen Aufgaben beginnt.",
+      "photo": "photo-1442512595331-e89e73853f31",
+      "alt": "Eine warme Tasse Kaffee auf einem Tisch",
+      "body": "<p>Nicht jeder Morgen bietet Platz für ein aufwendiges Ritual. Manchmal reicht eine kleine Pause: den Vorhang öffnen, mit einem warmen Getränk sitzen oder kurz innehalten, bevor du aufs Handy schaust.</p><h2>Such dir eine kleine Sache aus</h2><p>Wähle etwas, das dich unterstützt, statt dich zusätzlich zu fordern. Vielleicht bereitest du am Vorabend das Frühstück vor, legst ein Buch neben deinen Sessel oder gehst kurz vor die Tür, um das Wetter wahrzunehmen.</p><p>Deine Gewohnheiten dürfen sich mit deinem Leben verändern. Ein hilfreiches Ritual soll dir dienen.</p>",
+      "slug": "ruhiger-morgen"
+    },
+    {
+      "id": "seasonal-table",
+      "category": "Food",
+      "title": "So kommt die Jahreszeit auf deinen Teller",
+      "description": "Ein neugieriger, unkomplizierter Blick auf die Frage: Was koche ich als Nächstes?",
+      "photo": "photo-1542838132-92c53300491e",
+      "alt": "Eine Auswahl an frischem, buntem Gemüse",
+      "body": "<p>Saisonales Kochen kann mit einer einzigen Zutat beginnen, die dich anspricht. Wähle etwas, das du gerne isst, und baue ein vertrautes Gericht darum auf.</p><h2>Bleib flexibel</h2><p>Röste Gemüse mit Olivenöl und Kräutern, gib Blattgemüse zu einem Getreidegericht oder serviere Obst mit Joghurt, wenn das zu deiner Ernährung passt. Auch tiefgekühltes Obst und Gemüse sowie Konserven können praktisch sein.</p><p>Den einen perfekten Einkaufskorb gibt es nicht. Verfügbarkeit, Preis, Geschmack und Alltagstauglichkeit dürfen alle mitentscheiden.</p>",
+      "slug": "saisonal-geniessen"
+    },
+    {
+      "id": "shared-table",
+      "category": "Wellness",
+      "title": "Wie schön es ist, gemeinsam zu essen",
+      "description": "Mehr Raum für Verbindung – bei einer ganz gewöhnlichen Mahlzeit.",
+      "photo": "photo-1414235077428-338989a2e8c0",
+      "alt": "Ein liebevoll angerichtetes Essen auf einem gedeckten Tisch",
+      "body": "<p>Für eine gemeinsame Mahlzeit braucht es keinen besonderen Anlass. Eine Suppe, Reste vom Vortag oder ein einfaches Gericht können eine Einladung sein, zusammen innezuhalten.</p><h2>Mach es leicht, Ja zu sagen</h2><p>Halte das Essen unkompliziert, frage nach Ernährungsbedürfnissen und lass andere etwas beitragen, wenn sie möchten. Nähe kann bei einem kurzen Mittagessen genauso entstehen wie bei einem langen Abendessen.</p><p>Wenn ein Treffen schwierig ist, können ein Telefonat beim Kochen oder ein Rezept, das du mit einem lieben Menschen teilst, eine andere Form der Verbindung sein.</p>",
+      "slug": "gemeinsam-essen"
+    }
+  ]
+}
