@@ -1,6 +1,6 @@
 ---
 name: longlivity-blog-posts
-description: Write or revise brief, approachable articles and quick recipes for Longlivity by Nona about longevity, Ernährung, lifestyle, and everyday wellness. Use when the user asks for a blog post, recipe, article idea, or revision for this blog.
+description: Write or revise brief, approachable articles and quick recipes for Longlivity by Nona about longevity, Ernährung, lifestyle, and everyday wellness, and create or refine their cover images when requested. Use when the user asks for a blog post, recipe, article idea, revision, or blog cover image.
 ---
 
 # Longlivity by Nona blog posts
@@ -55,6 +55,33 @@ For evidence-led posts, include two or three concise source links after the arti
 
 Use a brief medical caveat only when the topic makes it useful; do not append a generic disclaimer to every post.
 
+## Cover images
+
+Apply this guidance to every blog topic, including recipes, nutrition, longevity, and lifestyle. Create or change an image when requested or already authorized; an article-only request does not require image generation.
+
+### Choose the subject and visual direction
+
+- Read the finished article before choosing a subject. Show one concrete, recognizable idea from the story. For a recipe, depict the named dish; for other topics, choose a relevant everyday scene, ingredient, object, or activity. Avoid generic wellness imagery and visuals that imply medical outcomes or personal credentials.
+- Default to natural editorial photography: believable proportions, appetizing or appropriate colors, soft directional daylight, tactile materials, and a premium but relaxed setting. Vary the setting, lighting, angle, and composition to suit the article and the user's preference. A particular dish, plate color, or arrangement is not a permanent brand rule.
+- Use supplied references to understand what the user likes. Identify the relevant features: subject shape, texture, plating or arrangement, camera angle, light, palette, and background. Keep a reference's visual style separate from its actual contents; do not copy extra ingredients or props that conflict with the article.
+- Specify the subject's recognizable shape, surface, texture, scale, and arrangement concretely in the image prompt. Check that food looks like the named dish and that other subjects are immediately recognizable. Use believable portions, anatomy, equipment, and physical interactions.
+- For recipes, match the ingredients, preparation method, and likely result. Show toppings and garnishes from the recipe; do not invent sauces, sweeteners, dustings, or ingredients that suggest a different dish or dietary claim. Do not imply a generated image proves the recipe was tested.
+
+### Generate, inspect, and revise
+
+- Prefer one strong image per generation. Use the available image-generation tool and inspect each result before treating it as ready. When changing an existing image, reference that actual image rather than relying only on a fresh text description.
+- For this blog, prefer a landscape composition, usually 3:2, with the main subject clear at thumbnail size. Leave enough space around it for the site's article and card crops. Avoid essential details at the edges, embedded text, invented logos, and distracting props unless requested.
+- Inspect subject identity, proportions, texture, ingredient consistency, unwanted additions, lighting, and crop suitability. Correct obvious mismatches before publication. Keep technical generation notes out of the cover itself.
+- Treat feedback as a targeted revision: identify what must change and preserve the parts the user likes. If the user prefers an earlier image's setting and a later image's subject, reference both and state which features to take from each. Do not restart the whole visual direction unnecessarily.
+- Show the replacement as part of the normal generation flow. If the user rejects an image, exclude it from publication. Ask one focused question only when the requested change is ambiguous enough to materially affect the result. Do not add a separate approval requirement when the current image and publication are already authorized.
+
+### Prepare for the blog
+
+- Preserve the original generated file and prepare a web-optimized copy under a stable article-specific asset name. Host it with the blog when supported, and confirm the production build copies the asset.
+- Use the same selected image for both language versions, with natural, accurate German and English alt text describing the visible subject. Identify generated imagery as an illustration in the article or image caption; do not call it a photograph of Nona's actual preparation. Describe stock or supplied imagery accurately without inventing its provenance.
+- Verify the image on the journal card, article page, and social-preview metadata. Check that local image paths resolve in the deployed site, that the subject survives desktop and mobile crops, and that both language routes use the selected asset. Report any checks that could not be performed.
+- Keep the image's publication status aligned with the user's current instructions. Generation alone does not authorize publication; an existing explicit request to publish the article with its selected image does.
+
 ## Deliverable and site integration
 
 Return the article first, followed by a compact editorial block:
@@ -73,3 +100,4 @@ Do not push or publish a newly written post unless the user asks for that action
 ## Final editorial check
 
 Before delivering, confirm the piece is brief, coherent, useful, and easy to read aloud. Remove repetition and unsupported claims. Check recipe quantities, timing, dietary labels, and spelling. Preserve the user's facts and wording when revising. Keep editorial notes out of the reader-facing article.
+
